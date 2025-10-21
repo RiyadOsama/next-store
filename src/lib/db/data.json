@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1012,
+    "name": "Handcrafted Aluminum Laptop",
+    "description": "High-performance aluminum laptop with 16GB RAM and 512GB SSD.",
+    "price": "1249.99"
+  },
+  {
+    "id": 1023,
+    "name": "Luxurious Plastic Cheese Platter",
+    "description": "Elegant serving platter made of durable food-safe plastic.",
+    "price": "39.49"
+  },
+  {
+    "id": 1039,
+    "name": "Bespoke Granite Cookware Set",
+    "description": "Premium non-stick granite cookware with elegant finish.",
+    "price": "179.99"
+  },
+  {
+    "id": 1045,
+    "name": "Ergonomic Marble Dining Table",
+    "description": "Stylish marble dining table designed for modern interiors.",
+    "price": "1199.00"
+  },
+  {
+    "id": 1058,
+    "name": "Incredible Concrete Car Model",
+    "description": "Limited-edition decorative concrete car sculpture.",
+    "price": "249.00"
+  },
+  {
+    "id": 1064,
+    "name": "Elegant Concrete Lamp",
+    "description": "Minimalist concrete table lamp with warm LED lighting.",
+    "price": "89.99"
+  },
+  {
+    "id": 1075,
+    "name": "Tasty Bamboo Cutting Board",
+    "description": "Eco-friendly bamboo cutting board for daily kitchen use.",
+    "price": "24.99"
+  },
+  {
+    "id": 1086,
+    "name": "Incredible Granite Mouse",
+    "description": "Ergonomic computer mouse with smooth granite-like texture.",
+    "price": "39.99"
+  },
+  {
+    "id": 1097,
+    "name": "Handmade Aluminum Headphones",
+    "description": "High-fidelity aluminum headphones with deep bass.",
+    "price": "149.50"
+  },
+  {
+    "id": 1103,
+    "name": "Incredible Bamboo Bicycle",
+    "description": "Sustainable bamboo bicycle, lightweight and durable.",
+    "price": "899.99"
+  },
+  {
+    "id": 1111,
+    "name": "Frozen Gold Tuna Pack",
+    "description": "Premium frozen tuna fillets sourced sustainably.",
+    "price": "14.99"
+  },
+  {
+    "id": 1122,
+    "name": "Unbranded Rubber Pizza Toy",
+    "description": "Durable chew toy shaped like a pizza slice for pets.",
+    "price": "12.50"
+  },
+  {
+    "id": 1133,
+    "name": "Modern Bronze Sneakers",
+    "description": "Comfortable sneakers with bronze metallic accents.",
+    "price": "129.00"
+  },
+  {
+    "id": 1144,
+    "name": "Incredible Plastic Storage Box",
+    "description": "Stackable plastic container with secure locking lid.",
+    "price": "22.99"
+  },
+  {
+    "id": 1155,
+    "name": "Practical Granite Towels Rack",
+    "description": "Wall-mounted granite-style towel holder.",
+    "price": "89.49"
+  },
+  {
+    "id": 1166,
+    "name": "Modern Plastic Monitor Stand",
+    "description": "Durable plastic stand to elevate your computer monitor.",
+    "price": "34.99"
+  },
+  {
+    "id": 1177,
+    "name": "Incredible Concrete Keyboard",
+    "description": "Mechanical keyboard with industrial concrete finish.",
+    "price": "199.99"
+  },
+  {
+    "id": 1188,
+    "name": "Elegant Gold Keyboard",
+    "description": "Wireless keyboard with elegant gold finish and silent keys.",
+    "price": "229.99"
+  },
+  {
+    "id": 1199,
+    "name": "Small Concrete Soap Dish",
+    "description": "Minimalist bathroom soap dish made of natural concrete.",
+    "price": "14.99"
+  },
+  {
+    "id": 1200,
+    "name": "Awesome Wooden Shirt Hanger Set",
+    "description": "Set of 10 polished wooden hangers with non-slip grips.",
+    "price": "27.99"
+  },
+  {
+    "id": 1211,
+    "name": "Recycled Aluminum Laptop Stand",
+    "description": "Foldable aluminum stand for ergonomic laptop positioning.",
+    "price": "59.00"
+  },
+  {
+    "id": 1222,
+    "name": "Handmade Granite Vase",
+    "description": "Elegant decorative vase handcrafted from granite.",
+    "price": "84.99"
+  },
+  {
+    "id": 1233,
+    "name": "Luxurious Silk Pillowcase",
+    "description": "Soft silk pillowcase that’s gentle on hair and skin.",
+    "price": "35.00"
+  },
+  {
+    "id": 1244,
+    "name": "Frozen Concrete Sculpture",
+    "description": "Modern home decor sculpture in frozen concrete style.",
+    "price": "119.00"
+  },
+  {
+    "id": 1255,
+    "name": "Handmade Bronze Table Lamp",
+    "description": "Stylish bronze lamp with adjustable warm lighting.",
+    "price": "149.99"
+  },
+  {
+    "id": 1266,
+    "name": "Licensed Rubber Oven Mitts",
+    "description": "Heat-resistant rubber oven mitts for safe cooking.",
+    "price": "18.99"
+  },
+  {
+    "id": 1277,
+    "name": "Electronic Wooden Laptop",
+    "description": "Unique eco-friendly wooden laptop casing for modern laptops.",
+    "price": "1099.00"
+  },
+  {
+    "id": 1288,
+    "name": "Refined Aluminum T-Shirt",
+    "description": "Lightweight and breathable sports t-shirt with metallic fibers.",
+    "price": "39.00"
+  },
+  {
+    "id": 1299,
+    "name": "Licensed Bronze Cheese Knife Set",
+    "description": "Elegant 3-piece cheese knife set with bronze handles.",
+    "price": "44.99"
+  },
+  {
+    "id": 1300,
+    "name": "Frozen Bronze Blanket",
+    "description": "Ultra-soft warm blanket with bronze pattern design.",
+    "price": "59.50"
+  },
+  {
+    "id": 1311,
+    "name": "Small Silk Towels",
+    "description": "Set of 3 small luxury silk face towels.",
+    "price": "29.99"
+  },
+  {
+    "id": 1322,
+    "name": "Generic Steel Keyboard",
+    "description": "Durable wired keyboard built with brushed steel frame.",
+    "price": "89.00"
+  },
+  {
+    "id": 1333,
+    "name": "Fantastic Wooden Dining Set",
+    "description": "Six-seater dining table made of premium oak wood.",
+    "price": "899.00"
+  },
+  {
+    "id": 1344,
+    "name": "Handcrafted Steel Soap Dispenser",
+    "description": "Refillable steel soap dispenser for modern bathrooms.",
+    "price": "24.99"
+  },
+  {
+    "id": 1355,
+    "name": "Recycled Bronze Side Table",
+    "description": "Compact bronze accent table made from recycled metal.",
+    "price": "159.00"
+  },
+  {
+    "id": 1366,
+    "name": "Soft Ceramic Chair",
+    "description": "Elegant ceramic chair for indoor and outdoor spaces.",
+    "price": "399.00"
+  },
+  {
+    "id": 1377,
+    "name": "Fresh Rubber Car Mats",
+    "description": "Set of 4 heavy-duty rubber car floor mats.",
+    "price": "49.99"
+  },
+  {
+    "id": 1388,
+    "name": "Small Silk Laptop Sleeve",
+    "description": "Protective silk sleeve for 13-inch laptops.",
+    "price": "32.50"
+  },
+  {
+    "id": 1399,
+    "name": "Oriental Gold Table",
+    "description": "Elegant coffee table with gold-plated accents.",
+    "price": "749.00"
+  },
+  {
+    "id": 1400,
+    "name": "Awesome Silk Shirt",
+    "description": "Stylish silk shirt suitable for casual and formal wear.",
+    "price": "69.99"
+  },
+  {
+    "id": 1411,
+    "name": "Frozen Bronze Car Keychain",
+    "description": "Decorative bronze keychain shaped like a car.",
+    "price": "15.49"
+  },
+  {
+    "id": 1422,
+    "name": "Rustic Ceramic Shoes",
+    "description": "Unique decorative ceramic shoes for artistic display.",
+    "price": "54.99"
+  },
+  {
+    "id": 1433,
+    "name": "Intelligent Silk Shirt",
+    "description": "Smart temperature-adjusting silk shirt.",
+    "price": "79.00"
+  },
+  {
+    "id": 1444,
+    "name": "Ergonomic Marble Computer Desk",
+    "description": "Modern marble desk with cable management and storage.",
+    "price": "899.50"
+  },
+  {
+    "id": 1455,
+    "name": "Sleek Silk Bedsheets",
+    "description": "Premium silk bedsheet set for a luxurious sleep experience.",
+    "price": "199.00"
+  },
+  {
+    "id": 1466,
+    "name": "Fresh Aluminum Soap Holder",
+    "description": "Anti-rust soap holder made of brushed aluminum.",
+    "price": "16.99"
+  },
+  {
+    "id": 1477,
+    "name": "Licensed Ceramic Toy Car",
+    "description": "Collectible ceramic car miniature with glossy finish.",
+    "price": "22.49"
+  },
+  {
+    "id": 1488,
+    "name": "Handmade Aluminum Mouse",
+    "description": "Sleek aluminum wireless mouse with rechargeable battery.",
+    "price": "49.99"
+  },
+  {
+    "id": 1499,
+    "name": "Small Aluminum Chips Bowl",
+    "description": "Lightweight aluminum bowl perfect for snacks.",
+    "price": "14.99"
+  },
+  {
+    "id": 1500,
+    "name": "Recycled Metal Toy Car",
+    "description": "Eco-friendly handmade toy car crafted from recycled metal.",
+    "price": "25.99"
+  },
+  {
+    "id": 1511,
+    "name": "Elegant Bronze Cheese Grater",
+    "description": "Stainless steel cheese grater with bronze handle.",
+    "price": "19.99"
+  },
+  {
+    "id": 1522,
+    "name": "Licensed Granite Soap Dish",
+    "description": "Granite soap dish with a smooth matte finish.",
+    "price": "21.50"
+  },
+  {
+    "id": 1533,
+    "name": "Oriental Bamboo Chips Bowl",
+    "description": "Eco bamboo snack bowl with smooth finish.",
+    "price": "18.49"
+  },
+  {
+    "id": 1544,
+    "name": "Luxurious Bamboo Laptop Stand",
+    "description": "Adjustable bamboo laptop stand for ergonomic use.",
+    "price": "79.99"
+  },
+  {
+    "id": 1555,
+    "name": "Electronic Marble Fish Lamp",
+    "description": "Artistic fish-shaped LED lamp made of marble.",
+    "price": "139.00"
+  },
+  {
+    "id": 1566,
+    "name": "Oriental Concrete Coffee Table",
+    "description": "Minimalist concrete table for modern living rooms.",
+    "price": "699.00"
+  },
+  {
+    "id": 1577,
+    "name": "Intelligent Steel Mug",
+    "description": "Smart heated mug with temperature control.",
+    "price": "129.99"
+  },
+  {
+    "id": 1588,
+    "name": "Gorgeous Metal Chair",
+    "description": "Industrial-style chair with polished metal frame.",
+    "price": "159.50"
+  },
+  {
+    "id": 1599,
+    "name": "Handmade Gold Necklace",
+    "description": "Elegant 18K gold-plated necklace handcrafted with care.",
+    "price": "349.00"
+  },
+  {
+    "id": 1600,
+    "name": "Luxurious Ceramic Vase",
+    "description": "Tall decorative vase made of fine ceramic.",
+    "price": "119.99"
+  },
+  {
+    "id": 1611,
+    "name": "Electronic Cotton Pizza Cutter",
+    "description": "Rechargeable electric pizza cutter with LED light.",
+    "price": "39.99"
+  },
+  {
+    "id": 1622,
+    "name": "Handmade Granite Cheese Board",
+    "description": "Elegant cheese board made from natural granite.",
+    "price": "64.50"
+  },
+  {
+    "id": 1633,
+    "name": "Ergonomic Bronze Sneakers",
+    "description": "Premium running sneakers with breathable mesh design.",
+    "price": "159.00"
+  },
+  {
+    "id": 1644,
+    "name": "Fantastic Plastic Gloves",
+    "description": "Reusable protective gloves made of durable plastic.",
+    "price": "12.99"
+  },
+  {
+    "id": 1655,
+    "name": "Sleek Cotton Cheesecloth",
+    "description": "High-quality cotton cheesecloth for kitchen use.",
+    "price": "9.99"
+  },
+  {
+    "id": 1666,
+    "name": "Unbranded Ceramic Salad Bowl",
+    "description": "Large ceramic salad bowl ideal for serving.",
+    "price": "34.99"
+  },
+  {
+    "id": 1677,
+    "name": "Unbranded Silk Blanket",
+    "description": "Ultra-soft silk blanket with lightweight comfort.",
+    "price": "79.50"
+  },
+  {
+    "id": 1688,
+    "name": "Electronic Silk Table Lamp",
+    "description": "Modern table lamp with silk shade and LED bulb.",
+    "price": "89.99"
+  },
+  {
+    "id": 1699,
+    "name": "Fantastic Cotton Chicken Plush",
+    "description": "Soft cotton stuffed chicken plush toy.",
+    "price": "18.00"
+  },
+  {
+    "id": 1700,
+    "name": "Refined Silk Scarf",
+    "description": "Lightweight silk scarf with elegant floral design.",
+    "price": "42.00"
+  },
+  {
+    "id": 1711,
+    "name": "Gorgeous Ceramic Cheese Tray",
+    "description": "Stylish ceramic tray for serving cheese and snacks.",
+    "price": "39.49"
+  },
+  {
+    "id": 1722,
+    "name": "Licensed Wooden Bike Model",
+    "description": "Handcrafted miniature wooden bike decor.",
+    "price": "59.99"
+  },
+  {
+    "id": 1733,
+    "name": "Frozen Silk Table Runner",
+    "description": "Elegant silk table runner for dining decor.",
+    "price": "28.50"
+  },
+  {
+    "id": 1744,
+    "name": "Licensed Rubber Fish Toy",
+    "description": "Floating rubber fish toy for kids and pets.",
+    "price": "8.99"
+  },
+  {
+    "id": 1755,
+    "name": "Oriental Bamboo Gloves",
+    "description": "Soft reusable bamboo gloves for cleaning.",
+    "price": "11.50"
+  },
+  {
+    "id": 1766,
+    "name": "Practical Steel Laptop",
+    "description": "Durable 15-inch laptop with sleek steel casing.",
+    "price": "1199.00"
+  },
+  {
+    "id": 1777,
+    "name": "Electronic Cotton Charger Cable",
+    "description": "Fast-charging cotton-braided USB-C cable.",
+    "price": "12.99"
+  },
+  {
+    "id": 1788,
+    "name": "Generic Bronze Bracelet",
+    "description": "Adjustable bronze bracelet with matte finish.",
+    "price": "24.50"
+  },
+  {
+    "id": 1799,
+    "name": "Recycled Bamboo Shirt",
+    "description": "Eco-friendly bamboo shirt, breathable and soft.",
+    "price": "59.00"
+  },
+  {
+    "id": 1800,
+    "name": "Generic Marble Towels Rack",
+    "description": "Marble-style towel rack for elegant bathrooms.",
+    "price": "119.00"
+  },
+  {
+    "id": 1811,
+    "name": "Frozen Granite Coasters Set",
+    "description": "Set of 6 granite coasters with smooth edges.",
+    "price": "29.99"
+  },
+  {
+    "id": 1822,
+    "name": "Handmade Steel Mouse",
+    "description": "Ergonomic steel mouse designed for professionals.",
+    "price": "69.99"
+  },
+  {
+    "id": 1833,
+    "name": "Refined Bamboo Table",
+    "description": "Sustainable bamboo coffee table with polished finish.",
+    "price": "199.00"
+  },
+  {
+    "id": 1844,
+    "name": "Elegant Marble Candle Holder",
+    "description": "Luxury candle holder crafted from solid marble.",
+    "price": "39.99"
+  },
+  {
+    "id": 1855,
+    "name": "Soft Cotton Mouse Pad",
+    "description": "Non-slip cotton mouse pad for smooth performance.",
+    "price": "9.49"
+  },
+  {
+    "id": 1866,
+    "name": "Handmade Steel Keyboard",
+    "description": "Mechanical keyboard with a brushed steel body.",
+    "price": "179.99"
+  },
+  {
+    "id": 1877,
+    "name": "Fantastic Cotton Apron",
+    "description": "Comfortable cotton apron with adjustable straps.",
+    "price": "19.99"
+  },
+  {
+    "id": 1888,
+    "name": "Unbranded Rubber Tuna Toy",
+    "description": "Durable tuna-shaped bath toy for kids.",
+    "price": "7.99"
+  },
+  {
+    "id": 1899,
+    "name": "Frozen Steel Mug",
+    "description": "Double-wall stainless steel mug for hot beverages.",
+    "price": "19.99"
+  },
+  {
+    "id": 1900,
+    "name": "Handmade Metal Shoes",
+    "description": "Artistic metal sculpture in the shape of shoes.",
+    "price": "129.99"
+  },
+  {
+    "id": 1911,
+    "name": "Refined Bamboo Shirt",
+    "description": "Soft bamboo shirt ideal for summer wear.",
+    "price": "49.50"
+  },
+  {
+    "id": 1922,
+    "name": "Gorgeous Bronze Sausages Set",
+    "description": "Artistic bronze kitchen sculpture set.",
+    "price": "99.99"
+  },
+  {
+    "id": 1933,
+    "name": "Generic Cotton Chair Cover",
+    "description": "Washable cotton cover fits most dining chairs.",
+    "price": "14.99"
+  },
+  {
+    "id": 1944,
+    "name": "Refined Bronze Gloves",
+    "description": "Protective gloves with bronze coating for heavy use.",
+    "price": "24.99"
+  },
+  {
+    "id": 1955,
+    "name": "Generic Gold Towels",
+    "description": "Soft golden-colored towels made of cotton blend.",
+    "price": "29.99"
+  },
+  {
+    "id": 1966,
+    "name": "Soft Granite Shoes",
+    "description": "Comfortable slip-on shoes with granite-style texture.",
+    "price": "79.99"
+  },
+  {
+    "id": 1977,
+    "name": "Electronic Metal Speaker",
+    "description": "Portable Bluetooth speaker with aluminum housing.",
+    "price": "89.99"
+  },
+  {
+    "id": 1988,
+    "name": "Oriental Silk Shoes",
+    "price": "69.99",
+    "description": "Luxury silk slippers with smooth texture."
+  },
+  {
+    "id": 1999,
+    "name": "Handcrafted Aluminum Bowl",
+    "description": "Durable lightweight aluminum serving bowl.",
+    "price": "27.99"
+  },
+  {
+    "id": 2000,
+    "name": "Soft Concrete Hat",
+    "price": "59.99",
+    "description": "Modern decorative concrete hat sculpture."
+  }
+]
