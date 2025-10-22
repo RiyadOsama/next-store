@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Next Store
 
-## Getting Started
+A minimal e‑commerce dashboard built with Next.js for managing products (CRUD) using a file‑based JSON store. Ideal as a starter template for learning Next.js App Router and building small admin dashboards.
 
-First, run the development server:
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](#license) [![Next.js](https://img.shields.io/badge/next.js-13+-black)](#) [![Bootstrap](https://img.shields.io/badge/bootstrap-5-blue)](#)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Quick overview
+
+- Product CRUD (create, read, update, delete)
+- API routes under `src/app/api/products`
+- UI built with Bootstrap + React‑Bootstrap
+- Simple file DB: `src/lib/db/data.json`
+- Toast notifications (React Toastify)
+
+## Tech stack
+
+- Next.js (App Router)
+- React
+- React‑Bootstrap / Bootstrap
+- React Toastify
+- Lucide icons
+
+## Getting started
+
+1. Clone and install
+
+   ```bash
+   git clone https://github.com/RiyadOsama/next-store.git
+   cd next-store
+   npm install
+   ```
+
+2. Run dev server
+
+   ```bash
+   npm run dev
+   # open http://localhost:3000
+   ```
+
+3. Ensure data file exists
+   - Path: `src/lib/db/data.json`
+   - Example initial content:
+     ```json
+     []
+     ```
+     If missing, create the file with `[]`. The server code will also create parent folders when writing.
+
+## Project structure (key files)
+
+```
+src/
+├─ app/
+│  ├─ api/products/        # API routes (GET, POST, PUT, PATCH, DELETE)
+│  ├─ products/            # Pages: list, add, [productId]
+│  └─ layout.js            # Root layout (imports bootstrap css, header)
+├─ components/
+│  ├─ atoms/
+│  ├─ molecules/
+│  └─ organisms/
+└─ lib/
+   └─ db/
+      ├─ data.js           # getData / setData helpers
+      └─ data.json         # simple JSON datastore
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## API endpoints
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- GET /api/products — list all products
+- POST /api/products — create product
+- GET /api/products/{id} — get product by id
+- PUT /api/products/{id} — replace product
+- PATCH /api/products/{id} — update product fields
+- DELETE /api/products/{id} — delete product
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Test an endpoint:
 
-## Learn More
+```bash
+curl http://localhost:3000/api/products
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Common troubleshooting
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 500 / file read errors: ensure `src/lib/db/data.json` exists and contains valid JSON.
+- Permissions: ensure Node process can read/write project files.
+- Restart dev server after changing server files.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Accessibility & UX notes
 
-## Deploy on Vercel
+- Header uses responsive Navbar (React-Bootstrap).
+- 404 page uses semantic markup and a clear CTA back to home.
+- Toggle/collapse use aria attributes for screen readers.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Development tips
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Use the browser DevTools network tab to inspect API requests.
+- Add console logs or server logs (Node console) inside API routes to debug server-side issues.
+- Keep `data.json` small — this approach is for demos and local development only.
+
+## Contributing
+
+1. Fork → branch → commit → PR.
+2. Keep changes scoped and add tests where appropriate.
+
+## License
+
+This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
