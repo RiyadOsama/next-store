@@ -4,6 +4,8 @@ import { useSearchParams } from "next/navigation";
 import { useState, useEffect } from "react";
 import { toast } from "react-toastify";
 
+export const dynamic = "force-dynamic";
+
 export default function ProductFormPage() {
   const searchParams = useSearchParams();
   const id = searchParams.get("id");
