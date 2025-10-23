@@ -1,8 +1,12 @@
 "use client";
+
+import { useSession } from "next-auth/react";
 import Link from "next/link";
 import { Container, Nav, Navbar } from "react-bootstrap";
 
-function Header() {
+function NavBar() {
+  const { data: session, status } = useSession();
+
   return (
     <Navbar bg="light" variant="light" expand="lg" className="mb-4">
       <Container>
@@ -22,9 +26,11 @@ function Header() {
             <Nav.Link as={Link} href="/products">
               Shop
             </Nav.Link>
-            <Nav.Link as={Link} href="/products/add">
-              Add
-            </Nav.Link>
+            {status === "authenticated" && (
+              <Nav.Link as={Link} href="/products/add">
+                Add
+              </Nav.Link>
+            )}
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -32,4 +38,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default NavBar;

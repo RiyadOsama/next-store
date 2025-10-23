@@ -17,7 +17,7 @@ async function getData() {
 
   try {
     const res = await fetch(process.env.NEXT_PUBLIC_PRODUCT_API, {
-      next: { revalidate: 21600 }, // Refetch Every 6 Hours
+      next: { revalidate: 1 }, // Refetch Every 6 Hours
     });
 
     if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
