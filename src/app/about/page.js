@@ -4,6 +4,8 @@ import Interactions from "@/components/molecules/Interactions";
 import { Eye } from "lucide-react";
 import Link from "next/link";
 
+export const dynamic = "force-dynamic";
+
 export const metadata = {
   title: "Top Products",
   description: "Next Store — Top Products Page",

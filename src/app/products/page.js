@@ -4,6 +4,8 @@ import Interactions from "@/components/molecules/Interactions";
 import { Eye } from "lucide-react";
 import Link from "next/link";
 
+export const dynamic = "force-dynamic";
+
 export const metadata = {
   title: "All Products",
   description: "Next Store — All Products Page",
@@ -15,8 +17,7 @@ async function getData() {
 
   try {
     const res = await fetch(process.env.NEXT_PUBLIC_PRODUCT_API, {
-      // next: { revalidate: 21600 }, // Refetch Every 6 Hours
-      next: { revalidate: 1 }, // Refetch Every 1 Second (Just For Demo)
+      next: { revalidate: 21600 }, // Refetch Every 6 Hours
     });
 
     if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
